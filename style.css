@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main-img{
+    background: linear-gradient(90deg, #ffffff 0%, transparent 95%);
+    z-index: -1;
+    background-image:url(./img/breadcrumb-bg-2.jpg) ;
+    padding:100px 0px;
+    background-position:center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+ul,li{
+    list-style-type: none;
+    padding: 0px;
+} 
+.buton-img{
+    color: white;
+    background-color: black;
+    height: 45px;
+    width: 220px;
+}
+.footer{
+
+    background-image: url(./img/istockphoto-636609180-612x612.jpg);
+    background-size: cover;
+    overflow: hidden;
+        width: 100%;
+    }
+    .footer1{
+        background-color: black;
+        opacity: 0.9;
+    }
+    .ff{
+        display: flex;
+        justify-content: center;
+    }
+    .ss{
+        margin: 22px auto;
+    }
+    .down{
+        font-size: large;
+        font-weight: bolder;
+    }
+    
+.img-content-h2{
+    font-weight: 700;
+    font-size: 40px;
+    margin-bottom: 5px;
+}
+.main-col{
+    padding: 20px 0px;
+}
+.main-col-cont:hover{
+    color: #1cb9c8;
+    cursor: pointer;
+}
+.main-col-fl{
+    float: right;
+}
+.main-col-h2{
+    display: inline;
+    font-size: 16px;
+    font-weight: 600;
+}
+.main-col-img{
+    padding: 21px 0px;
+}
+.i{
+    list-style-type: none;
+    transition:white 0.3s ease;
+}
+.icons{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    text-align: center;
+    align-items: center;
+}
+.i:hover{
+    color:rgb(87, 183, 243); 
+}
+.para{
+    transition:white 0.3s ease;
+    text-align: justify;
+}
+.para:hover{
+    color:rgb(87, 183, 243); 
+}
+i{
+    font-size: larger;
+    padding-right: 15px;
+    transition:white 0.3s ease;
+}
+i:hover{
+    color:rgb(87, 183, 243); 
+}
+.design1{
+    padding-top: 15px;
+}
+.button{
+    width: 130px;
+    height: 50px;
+    justify-content: center;
+    background-color: black;
+    color: white;
+    border-radius: 4px;
+    transition:white 0.3s ease;
+}
+.button:hover{
+    color:rgb(87, 183, 243); 
+}
+.bg-gray{
+    background-color: rgba(128, 128, 128, 0.596);
+}
+.input{
+    background-color: rgb(255, 255, 255);
+    width: 80%;
+    height: 50px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+.btn1{
+    background-color:#0d6efd;
+    color: white;
+    width: 80%;
+    height: 50px;
+    border-radius: 10px;
+}
+
+.footer-posts{
+    justify-content: center;
+    margin-bottom: 9px;
+}
+.footer-posts a{
+    text-decoration: none;
+    color: #ffffff;
+}
