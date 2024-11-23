@@ -22,6 +22,10 @@ ul,li{
     height: 45px;
     width: 220px;
 }
+.sticky{    background-color:white ;
+    position: sticky;
+    top: 0px;
+}
 .footer{
 
     background-image: url(./img/istockphoto-636609180-612x612.jpg);
